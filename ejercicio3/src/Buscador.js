@@ -38,7 +38,7 @@ const BuscadorDeProductos = () => {
                         <li key={producto.id}>{producto.nombre}</li>
                     ))
                 ) : (
-                    <p>No se encontraron productos.</p>
+                    <p>No hay nada.</p>
                 )}
             </ul>
         </div>
