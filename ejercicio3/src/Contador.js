@@ -6,6 +6,9 @@ function Contador() {
         <div>
             <p>Contador: {contador}</p>
             <button onClick={() => setContador(contador + 1)}>Incrementar</button>
+            <button onClick={() => setContador(contador + -1)}>Restar</button>
         </div>
+        
     );
 }
+export default Contador;
