@@ -6,7 +6,7 @@ function App() {
     return (<div className="App">
         <header className="App-header">
             <Container>
-                <Stack>
+                <Stack style={{marginTop: '5%'}}>
                     <Row>
                         <Col xs={6} md={6} lg={6}>
                             <Image src={"./Espaiderman.jpg"}
