@@ -5,8 +5,8 @@ import {Col, Container, Image, Row, Stack} from "react-bootstrap";
 function App() {
     return (<div className="App">
         <header className="App-header">
-            <Container>
-                <Stack style={{marginTop: '5%'}}>
+            <Container style={{margin: '5%'}}>
+                <Stack>
                     <Row>
                         <Col xs={6} md={6} lg={6}>
                             <Image src={"./Espaiderman.jpg"}
